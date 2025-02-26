@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            td {width: 75px;}
+            tr {height: 30px;}
+            </style>
+    </head>
+    <body>
+
+        <h2>User Registeration Form</h2>
+        
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label for="uid">User Id</label>
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="text" id="uid" placeholder="Enter your name" required pattern="[A-Za-z0-9]{6,12}">
+                    </td>
+                    <td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pwd">Password</label>
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="password" id="pwd" placeholder="" required pattern="[A-Za-z0-9]{5,12}">
+                    </td>
+                    <td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="uname">Name</label>
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td colspan="3">
+                        <input type="text" id="uname" placeholder="" style="width: 100%;" required pattern="[A-Za-z ]+">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="country">Country</label>
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="text" id="country" placeholder="" required pattern="[A-Za-z]+">
+                    </td>
+                    <td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="city">City</label>
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="text" id="city" placeholder="" required pattern="[A-Za-z]+">
+                    </td>
+                    <td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="zcode">Zip Code</label>
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td colspan="2">
+                        <input type="text" id="zcode" placeholder="" style="width: 100%;" required pattern="[0-9]+">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td colspan="3">
+                        <input type="email" id="email" placeholder="" style="width: 100%;" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align:baseline">
+                        <label for="terms">Terms & Conditions</label>
+                    </td>
+                    <td style="vertical-align:baseline">
+                        :
+                    </td>
+                    <td colspan="5">
+                        <textarea type="terms" id="email" placeholder="" style="width: 100%;height: 150px;" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            <input type="checkbox" required> I agree
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="7" style="text-align: center;">
+                            <input type="submit" value="Submit">
+                    </td>
+                </tr>
+          </table>
+        </form> 
+        
+        
+        </body>
+</html>
